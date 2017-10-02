@@ -1,0 +1,12 @@
+{
+  "name": "easy-js",
+  "version": "0.0.6",
+  "description": "Javascript made easy!",
+  "main": "Easy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["easyjs","javascript","ejs","easy-js"],
+  "author": "Thomas Boccinfuso",
+  "license": "MIT"
+}

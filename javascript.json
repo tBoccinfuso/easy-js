@@ -1,0 +1,183 @@
+// If you are using VSCode - This is the file to add to your Javascript(Babel).json file. Once added, you will be able to use the following code snippets!
+
+{
+	"Random Number Generator": {
+		"prefix": "ejs.randomNumber",
+		"body": [
+			"ejs.randomNumber(num1, num2);"
+		],
+		"description": "Generate a random number. Replace variables with hard code values, or variables of your own. Start with the lowest number first. Example: For generating a number between 1 and 10, num 1 = 1, num 2 = 10."
+	},
+	"Id":{
+		"prefix": "ejs.Id",
+		"body": [
+			"ejs.Id(id);"
+		],
+		"description": "Replace id variable with your own, or the name of the ID you want to get. Remember to use quotes if passing the actual ID!"
+	},
+	"IdValue":{
+		"prefix": "ejs.idValue",
+		"body": [
+			"ejs.IdValue(id);"
+		],
+		"description": "Pass in an ID to get the returned value!"
+	},
+	"Email Regex":{
+		"prefix": "ejs.emailRegex",
+		"body": [
+			"ejs.emailRegex(email);"
+		],
+		"description": "Pass in your email you wish to test against the Regular Expression. Returns true or false."
+	},
+	"Phone Regex":{
+		"prefix": "ejs.phoneRegex",
+		"body": [
+			"ejs.phoneRegex(phone);"
+		],
+		"description": "Pass in your phone number you wish to test against the Regular Expression. Returns true or false."
+	},
+	"Add Class":{
+		"prefix": "ejs.addClass",
+		"body": [
+			"ejs.addClass(element, className);"
+		],
+		"description": "Pass in element (by ID) and the class name. Remember Quotes!"
+	},
+	"Remove Class":{
+		"prefix": "ejs.removeClass",
+		"body": [
+			"ejs.removeClass(element, className);"
+		],
+		"description": "Pass in element (by ID) and the class name. Remember Quotes!"
+	},
+	"hide Element":{
+		"prefix": "ejs.hideElement",
+		"body": [
+			"ejs.hideElement(id);"
+		],
+		"description": "Pass in element (by ID) to hide the element on the webpage."
+	},
+	"Show Element":{
+		"prefix": "ejs.showElement",
+		"body": [
+			"ejs.showElement(id);"
+		],
+		"description": "Pass in element (by ID) to show the element on the webpage."
+	},
+	"Get Name":{
+		"prefix": "ejs.getName",
+		"body": [
+			"ejs.getName(id);"
+		],
+		"description": "Pass in element (by ID) to get the html name."
+	},
+	"Get Type":{
+		"prefix": "ejs.getType",
+		"body": [
+			"ejs.getType(id);"
+		],
+		"description": "Pass in element (by ID) to get the type of the element."
+	},
+	"to JSON":{
+		"prefix": "ejs.toJSON",
+		"body": [
+			"ejs.toJSON(obj);"
+		],
+		"description": "Pass in an object to convert to JSON format."
+	},
+	"Find By Tag":{
+		"prefix": "ejs.findByTag",
+		"body": [
+			"ejs.findByTag(tag);"
+		],
+		"description": "Pass in element (by tag) to find all elements on the webpage using the tag."
+	},
+	"Find By Class":{
+		"prefix": "ejs.findByClass",
+		"body": [
+			"ejs.findByClass(className);"
+		],
+		"description": "Pass in element (by class name) to find all elements using the class name."
+	},
+	"Create Class":{
+		"prefix": "ejs.newClass",
+		"body": [
+			"class User {",
+			"\tconstructor(NAME, AGE){",
+			"\tthis.name = NAME;",
+			"\tthis.age = AGE",
+			"\t}",
+			"whoAmI(){",
+				"\tconsole.log('Your name is: ' + this.name +' and you are ' + this.age + ' years old.');",
+			"\t}",
+			"}",
+			"var u1 = new User('Jimmy', 99);",
+			"console.log(u1.whoAmI());"
+		],
+		"description": "This just shows a basic starting point for Javascript Classes."
+	},
+	"Times Clicked":{
+		"prefix": "ejs.timesClicked",
+		"body": [
+			"ejs.timesClicked();"
+		],
+		"description": "Add this funtion to an `onClick` event to track how many times the button, image, etc is clicked. Returns the number of times it is clicked."
+	},
+	"New Child Node":{
+		"prefix": "ejs.newChildNode",
+		"body": [
+			"ejs.newChildNode(el,parentNode,text);"
+		],
+		"description": "Used to append a new child TEXT node. Takes 3 params: 1st is the element type you want, 2nd is what parent node to append to and 3rd is the text you want added"
+	},
+	"Tag Collection":{
+		"prefix": "ejs.tagCollection",
+		"body": [
+			"ejs.tagCollection(tag);"
+		],
+		"description": "Returns an HTMLCollection object is an array-like list (collection) of HTML elements. ."
+	},
+	"New Cookie":{
+		"prefix": "ejs.newCookie",
+		"body": [
+			"ejs.newCookie(cookie);"
+		],
+		"description": "Creates a cookie by passing in what you wish to store. Example of storing a name: ejs.newCookie('name=Timmy')."
+	},	
+	"Remove Dropdown list item":{
+		"prefix": "ejs.removeDDLItem",
+		"body": [
+			"ejs.removeDDLItem(id);"
+		],
+		"description": "Pass in the id of the select list. This will remove the selected item."
+	},	
+	"Counter":{
+		"prefix": "ejs.counter",
+		"body": [
+			"ejs.counter;"
+		],
+		"description": "Creates an returns a counter. Increments by 1 ever time you call this funtion."
+	},	
+	"change text":{
+		"prefix": "ejs.changeText",
+		"body": [
+			"ejs.changeText(id,newText);"
+		],
+		"description": "Pass in an ID and new text, this will change the element's text."
+	},
+	"change Image":{
+		"prefix": "ejs.changeImage",
+		"body": [
+			"ejs.changeImage(id,imgSrc);"
+		],
+		"description": "Pass in an ID and the new image file name, this will change the image."
+	},
+	"Generate Salt":{
+		"prefix": "ejs.generateSalt",
+		"body": [
+			"ejs.generateSALT(number);"
+		],
+		"description": "Pass in a number, this will generate a unique SALT string length equal to the number you pass in."
+	},
+
+}
