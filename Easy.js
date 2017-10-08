@@ -92,6 +92,9 @@ const EasyJs = {
       
         return text;
     },
+    compare: function(x, y){
+        return x == y;
+    }
 }
 
 export default EasyJs;

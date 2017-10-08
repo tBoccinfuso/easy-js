@@ -207,3 +207,11 @@ ejs.generateSALT(number);
 <tabTrigger>generateSALT</tabTrigger>
 <scope>source.js</scope>
 </snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.compare(x,y);
+]]></content>
+<tabTrigger>compare</tabTrigger>
+<scope>source.js</scope>
+</snippet>

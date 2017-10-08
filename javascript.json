@@ -154,7 +154,7 @@
 	"Counter":{
 		"prefix": "ejs.counter",
 		"body": [
-			"ejs.counter;"
+			"ejs.counter();"
 		],
 		"description": "Creates an returns a counter. Increments by 1 ever time you call this funtion."
 	},	
@@ -179,5 +179,12 @@
 		],
 		"description": "Pass in a number, this will generate a unique SALT string length equal to the number you pass in."
 	},
+	"Compare":{
+		"prefix": "ejs.compare",
+		"body": [
+			"ejs.compare(x,y);"
+		],
+		"description": "Compares two variables you pass in. Returns true or false."
+	}
 
 }

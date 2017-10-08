@@ -9,13 +9,13 @@ code snippets and easy to use functions, Easy-js makes Javascript even easier to
 `npm install -g easy-js`
 
 ## What's new in this version?
-`9 new functions and VSCode snippets!`
+`Added 1 new function and code snippets for VSCode + Sublime`
 
 ## Included:
 
 Easy.js - The main file that makes Javascript easy for new programmers and experts! <br/><br/>
 javascript.json - This is a language.json file for VSCode, you will have to run this file manually to add in the code snippets that work with easy-js.<br/><br/>
-Sublime Text snippets will be coming in a future date!<br/><br/>
+Atom snippets will be coming in a future date!<br/><br/>
 
 ## Usage:
 
