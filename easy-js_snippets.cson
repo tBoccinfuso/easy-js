@@ -1,0 +1,174 @@
+'source.js'
+    'Get by ID'
+        'prefix': 'id'
+        'body': 'ejs.Id(id);'
+
+'source.js'
+    'Get value by ID'
+        'prefix': 'idvalue'
+        'body': 'ejs.IdValue(id);'
+
+'source.js'
+    'Email Regex'
+        'prefix': 'emailRegex'
+        'body': 'ejs.emailRegex(email);'
+
+'source.js'
+    'Phone Regex'
+        'prefix': 'phoneRegex'
+        'body': 'ejs.phoneRegex(phone);'
+
+'source.js'
+    'Add Class'
+        'prefix': 'addClass'
+        'body': 'ejs.addClass(el, className);'
+
+'source.js'
+    'Remove Class'
+        'prefix': 'removeClass'
+        'body': 'ejs.removeClass(el, className);'
+
+'source.js'
+    'Hide Element'
+        'prefix': 'hideElement'
+        'body': 'ejs.hideElement(el);'
+
+'source.js'
+    'Show Element'
+        'prefix': 'showElement'
+        'body': 'ejs.showElement(el);'
+
+'source.js'
+    'Get Name by Id'
+        'prefix': 'getName'
+        'body': 'ejs.getName(id);'
+
+'source.js'
+    'Get type by ID'
+        'prefix': 'getType'
+        'body': 'ejs.getType(el);'
+
+'source.js'
+    'To JSON'
+        'prefix': 'toJSON'
+        'body': 'ejs.toJSON(obj);'
+
+'source.js'
+    'Find all by Tag'
+        'prefix': 'findByTag'
+        'body': 'ejs.findByTag(tag);'
+
+'source.js'
+    'Find by Class'
+        'prefix': 'findByClass'
+        'body': 'ejs.findByClass(className);'
+
+'source.js'
+    'Random Number Generator'
+        'prefix': 'randomNumber'
+        'body': 'ejs.randomNumber(num1, num2);'
+
+'source.js'
+    'timesClicked'
+        'prefix': 'timesClicked'
+        'body': 'ejs.timesClicked();'
+
+'source.js'
+    'newChildNode'
+        'prefix': 'newChildNode'
+        'body': 'ejs.newChildNode(el, parentNode, text);'
+
+'source.js'
+    'Collection of Tag'
+        'prefix': 'tagCollection'
+        'body': 'ejs.tagCollection(tag);'
+
+'source.js'
+    'newCookie'
+        'prefix': 'newCookie'
+        'body': 'ejs.newCookie(cookie);'
+
+'source.js'
+    'Remove Select Item'
+        'prefix': 'removeDDLItem'
+        'body': 'ejs.removeDDLItem(id);'
+
+'source.js'
+    'counter'
+        'prefix': 'counter'
+        'body': 'ejs.counter();'
+
+'source.js'
+    'Change Text by ID'
+        'prefix': 'changeText'
+        'body': 'ejs.changeText(id, newText);'
+
+'source.js'
+    'Change Image Source'
+        'prefix': 'changeImg'
+        'body': 'ejs.changeImg(id, imgSrc);'
+
+'source.js'
+    'Generate random SALT'
+        'prefix': 'generateSALT'
+        'body': 'ejs.generateSALT(number);'
+
+'source.js'
+    'Compare two values'
+        'prefix': 'compare'
+        'body': 'ejs.compare(x, y);'
+
+'source.js'
+    'Display Current Date'
+        'prefix': 'displayDate'
+        'body': 'ejs.displayDate();'
+
+'source.js'
+    'To top of page'
+        'prefix': 'toTop'
+        'body': 'ejs.toTop();'
+
+'source.js'
+    'Check if Cookies are enabled'
+        'prefix': 'cookiesEnabled'
+        'body': 'ejs.cookiesEnabled();'
+
+'source.js'
+    'Close current Window'
+        'prefix': 'closeWindow'
+        'body': 'ejs.closeWindow();'
+
+'source.js'
+    'Close current Window after so many seconds'
+        'prefix': 'closeWindowAfter'
+        'body': 'ejs.closeWindowAfter(seconds);'
+
+'source.js'
+    'Create password'
+        'prefix': 'genPassword'
+        'body': 'ejs.genPassword(length);'
+
+'source.js'
+    'Get Users Browser'
+        'prefix': 'getUserBrowser'
+        'body': 'ejs.getUserBrowser();'
+
+'source.js'
+    'Dectect key pressed'
+        'prefix': 'keyPressed'
+        'body': 'ejs.keyPressed(e);'
+
+'source.js'
+    'Check by ID if a checkbox is checked'
+        'prefix': 'isChecked'
+        'body': 'ejs.isChecked(id);'
+
+'source.js'
+    'Find the array item that occurs the most'
+        'prefix': 'arrayTopItem'
+        'body': 'ejs.arrayTopItem(array);'
+
+'source.js'
+    'Compares two parameters to see if the value AND type match'
+        'prefix': 'isEqual'
+        'body': 'ejs.isEqual(x,y);'

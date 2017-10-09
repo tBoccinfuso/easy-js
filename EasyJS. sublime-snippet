@@ -120,24 +120,6 @@ ejs.findByClass(className);
 
 <snippet>
 <content><![CDATA[
-"class User {",
-			constructor(NAME, AGE){
-			this.name = NAME;
-			this.age = AGE";
-			"}",
-			"whoAmI(){
-				tconsole.log('Your name is: ' + this.name +' and you are ' + this.age + ' years old.');
-			}
-			}
-			var u1 = new User('Jimmy', 99);
-			console.log(u1.whoAmI());
-]]></content>
-<tabTrigger>newClass</tabTrigger>
-<scope>source.js</scope>
-</snippet>
-
-<snippet>
-<content><![CDATA[
 ejs.timesClicked();
 ]]></content>
 <tabTrigger>timesClicked</tabTrigger>
@@ -213,5 +195,111 @@ ejs.generateSALT(number);
 ejs.compare(x,y);
 ]]></content>
 <tabTrigger>compare</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.displayDate();
+]]></content>
+<tabTrigger>displayDate</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.toTop();
+]]></content>
+<tabTrigger>toTop</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.cookiesEnabled();
+]]></content>
+<tabTrigger>cookiesEnabled</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.closeWindow();
+]]></content>
+<tabTrigger>closeWindow</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.closeWindowAfter(seconds);
+]]></content>
+<tabTrigger>closeWindowAfter</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.genPassword(length);
+]]></content>
+<tabTrigger>genPassword</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.getUserBrowser();
+]]></content>
+<tabTrigger>getUserBrowser</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+class User {
+			constructor(NAME, AGE){
+			this.name = NAME;
+			this.age = AGE"
+			}
+			whoAmI(){
+				"\tconsole.log('Your name is: ' + this.name +' and you are ' + this.age + ' years old.');
+			}
+			}
+			var u1 = new User('Jimmy', 99);
+			console.log(u1.whoAmI());
+]]></content>
+<tabTrigger>newClass</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.keyPressed(e);
+]]></content>
+<tabTrigger>keyPressed</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.isChecked(id);
+]]></content>
+<tabTrigger>isChecked</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.arrayTopItem(array);
+]]></content>
+<tabTrigger>arrayTopItem</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.isEqual(x, y);
+]]></content>
+<tabTrigger>isEqual</tabTrigger>
 <scope>source.js</scope>
 </snippet>

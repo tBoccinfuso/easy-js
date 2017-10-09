@@ -185,6 +185,82 @@
 			"ejs.compare(x,y);"
 		],
 		"description": "Compares two variables you pass in. Returns true or false."
+	},
+	"Display Date":{
+		"prefix": "ejs.displayDate",
+		"body": [
+			"ejs.displayDate();"
+		],
+		"description": "Returns the current date in dd/mmmm/yy format."
+	},
+	"To Top":{
+		"prefix": "ejs.toTop",
+		"body": [
+			"ejs.toTop();"
+		],
+		"description": "Scrolls to top of the page."
+	},
+	"Enable Cookies":{
+		"prefix": "ejs.cookiesEnabled",
+		"body": [
+			"ejs.cookiesEnabled();"
+		],
+		"description": "Checks to see if cookies are enabled. Returns true or false."
+	},
+	"Close Window":{
+		"prefix": "ejs.closeWindow",
+		"body": [
+			"ejs.closeWindow();"
+		],
+		"description": "Closes the current browser window."
+	},
+	"Close Window after":{
+		"prefix": "ejs.closeWindowAfter",
+		"body": [
+			"ejs.closeWindowAfter(seconds);"
+		],
+		"description": "Closes the current browser window after x amount of seconds."
+	},
+	"Generate Password":{
+		"prefix": "ejs.genPassword",
+		"body": [
+			"ejs.genPassword(length);"
+		],
+		"description": "Generate a random password. Pass in a number, this will determine the length of the password."
+	},	
+	"Get Users browser":{
+		"prefix": "ejs.getUserBrowser",
+		"body": [
+			"ejs.getUserBrowser();"
+		],
+		"description": "Returns the browser and version that the user is using."
+	},
+	"Key Pressed":{
+		"prefix": "ejs.keyPressed",
+		"body": [
+			"ejs.keyPressed(e);"
+		],
+		"description": "Detects and returns what key was pressed by the user."
+	},
+	"Is Checked":{
+		"prefix": "ejs.isChecked",
+		"body": [
+			"ejs.isChecked(id);"
+		],
+		"description": "Pass in checkbox ID, returns true or false depending if it is checked or not."
+	},
+	"Find the highest occurance item in array":{
+		"prefix": "ejs.arrayTopItem",
+		"body": [
+			"ejs.arrayTopItem(array);"
+		],
+		"description": "Pass in an array, returns the array element that occurs the most."
+	},
+	"Check to see if parameters are same value AND type":{
+		"prefix": "ejs.isEqual",
+		"body": [
+			"ejs.isEqual(x, y);"
+		],
+		"description": "."
 	}
-
 }

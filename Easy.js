@@ -94,6 +94,82 @@ const EasyJs = {
     },
     compare: function(x, y){
         return x == y;
+    },
+    displayDate: function(){
+        var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",    
+       "November", "December"];       
+       var date = new Date();
+       var d = date.getDate();
+       var m = date.getMonth();
+       var y = date.getFullYear();    
+       var simpleDate = d + " " + month[m] + " " + y;
+       return simpleDate;
+    },
+    toTop: function(){
+        window.scrollTo(0,0);
+    },
+    cookiesEnabled: function(){
+        if (navigator.cookieEnabled == 0)
+            return false;
+        else
+            return true;
+          
+    },
+    closeWindow: function(){
+        window.close()
+    },
+    closeWindowAfter: function(seconds){
+        setTimeout(function() {
+            window.close();
+            }, seconds);        
+    },
+    genPassword: function(length){
+        var x = "";
+        var y = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%$#@^&*!+~<>";  
+        for (var i = 0; i < number; i++)
+          x += y.charAt(Math.floor(Math.random() * y.length));  
+        return x;
+    },
+    getUserBrowser: function(){
+        return navigator.userAgent;
+    },
+    keyPressed: function(e){
+        var keynum;
+        if(window.event) { // IE                    
+          keynum = e.keyCode;
+        } else if(e.which){ // Netscape/Firefox/Opera                   
+          keynum = e.which;
+        }
+        return String.fromCharCode(keynum);
+    },
+    isChecked: function(id){
+        if (document.getElementById(id).checked = true)
+            return true;
+        else
+            return false;
+    },
+    arrayTopItem: function(array){
+        if(array.length == 0)
+        return null;
+            var modeMap = {};
+            var maxEl = array[0], maxCount = 1;
+            for(var i = 0; i < array.length; i++)
+            {
+                var el = array[i];
+                if(modeMap[el] == null)
+                    modeMap[el] = 1;
+                else
+                    modeMap[el]++;  
+                if(modeMap[el] > maxCount)
+                {
+                    maxEl = el;
+                    maxCount = modeMap[el];
+                }
+            }
+            return maxEl;
+    },
+    isEqual: function(x, y){
+        return x === y;
     }
 }
 
