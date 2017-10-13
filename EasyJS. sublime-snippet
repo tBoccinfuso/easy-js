@@ -303,3 +303,35 @@ ejs.isEqual(x, y);
 <tabTrigger>isEqual</tabTrigger>
 <scope>source.js</scope>
 </snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.plotPoint(x,y, canvasID);
+]]></content>
+<tabTrigger>plotPoint</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.findDistance(x1, x2, y1, y2);
+]]></content>
+<tabTrigger>findDistance</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.drawLine(x1,y1, x2, y2 , canvasID);
+]]></content>
+<tabTrigger>drawLine</tabTrigger>
+<scope>source.js</scope>
+</snippet>
+
+<snippet>
+<content><![CDATA[
+ejs.query('#ID');
+]]></content>
+<tabTrigger>query</tabTrigger>
+<scope>source.js</scope>
+</snippet>

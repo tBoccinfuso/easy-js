@@ -172,3 +172,23 @@
     'Compares two parameters to see if the value AND type match'
         'prefix': 'isEqual'
         'body': 'ejs.isEqual(x,y);'
+
+'source.js'
+    'Plots a point on the canvas'
+        'prefix': 'plotPoint'
+        'body': 'ejs.plotPoint(x,y, canvasID);'
+
+'source.js'
+    'returns the distance between two points'
+        'prefix': 'findDistance'
+        'body': 'ejs.findDistance(x1, x2, y1, y2);'
+
+'source.js'
+    'Draws a line on the Canvas between two provided points.'
+        'prefix': 'drawLine'
+        'body': 'ejs.drawLine(x1,y1, x2, y2 , canvasID);'
+
+'source.js'
+    'Finds all by ID. replace the ID but be sure to leave the #.'
+        'prefix': 'query'
+        'body': 'ejs.query("#ID");

@@ -126,7 +126,7 @@ const EasyJs = {
     genPassword: function(length){
         var x = "";
         var y = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%$#@^&*!+~<>";  
-        for (var i = 0; i < number; i++)
+        for (var i = 0; i < length; i++)
           x += y.charAt(Math.floor(Math.random() * y.length));  
         return x;
     },
@@ -170,7 +170,41 @@ const EasyJs = {
     },
     isEqual: function(x, y){
         return x === y;
+    },
+    plotPoint: function(x,y, canvasID){
+        var canvas = document.getElementById(canvasID);
+        var canvasWidth = canvas.width;
+        var canvasHeight = canvas.height;
+        var ctx = canvas.getContext("2d");
+        var canvasData = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
+        return ctx.fillRect(x,y,3,3);    
+    },
+    findDistance: function(x1, x2, y1, y2){
+        var a = x1 - x2
+        var b = y1 - y2    
+        return Math.sqrt( a*a + b*b );
+    },
+    drawLine: function(x1,y1, x2, y2 , canvasID){
+        var c=document.getElementById(canvasID);
+        var ctx=c.getContext("2d");
+    
+        ctx.beginPath();
+        ctx.strokeStyle="black"; // Purple path
+        ctx.moveTo(x1,y1);
+        ctx.lineTo(x2,y2); 
+        ctx.stroke(); // Draw it
+    },
+    query: function(selector) {
+        var selectorType = 'querySelectorAll';
+    
+        if (selector.indexOf('#') === 0) {
+            selectorType = 'getElementById';
+            selector = selector.substr(1, selector.length);
+        }
+        return document[selectorType](selector);
     }
 }
 
+
 export default EasyJs;
+

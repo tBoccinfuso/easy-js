@@ -261,6 +261,34 @@
 		"body": [
 			"ejs.isEqual(x, y);"
 		],
-		"description": "."
+		"description": "Checks to see if two vales are equal value AND type."
+	},
+	"Plot Points on Canvas":{
+		"prefix": "ejs.plotPoint",
+		"body": [
+			"ejs.plotPoint(x, y, canvasID);"
+		],
+		"description": "Takes 3 params: an x and y coordinates and the id of the HTML5 canvas."
+	},
+	"Finds the distance of two points":{
+		"prefix": "ejs.findDistance",
+		"body": [
+			"ejs.findDistance(x1, x2, y1, y2);"
+		],
+		"description": "Finds the distance between two points."
+	},
+	"Draws a line between two points":{
+		"prefix": "ejs.drawLine",
+		"body": [
+			"ejs.drawLine(x1, x2, y1, y2, canvasID);"
+		],
+		"description": "Provide both points and the canvas ID. Draws a line connecting the points."
+	},
+	"Query an ID":{
+		"prefix": "ejs.query",
+		"body": [
+			"ejs.query('#IDname');"
+		],
+		"description": "Replace IDname with the ID you wish to find."
 	}
 }

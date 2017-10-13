@@ -9,7 +9,12 @@ code snippets and easy to use functions, Easy-js makes Javascript even easier to
 `npm install easy-js`
 
 ## What's new in this version?
-`Atom code snippets are here! BONUS: Added an extra function.`
+`Added 4 new functions with matching code snippets!`
+
+
+## What's next?
+I am currently working on a stand-alone version of the library that does not depend on installing through Node. <br/>
+I will also be continuing to add new useful functions that continue making life even easier!
 
 ## Included:
 
