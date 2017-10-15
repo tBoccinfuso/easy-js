@@ -13,7 +13,7 @@ code snippets and easy to use functions, Easy-js makes Javascript even easier to
 
 
 ## Documentation
-The documentation for `Easy-JS` can be found at: [Easyjs.org](http://www.easyjs.org).
+The documentation for `Easy-JS` can be found at: http://www.easyjs.org.
 
 ## Included:
 
