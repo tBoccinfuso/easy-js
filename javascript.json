@@ -290,5 +290,117 @@
 			"ejs.query('#IDname');"
 		],
 		"description": "Replace IDname with the ID you wish to find."
+	},
+	"Turn JSON into Js object":{
+		"prefix": "ejs.JSONToString",
+		"body": [
+			"ejs.JSONToString(json);"
+		],
+		"description": "Pass in a JSON string. Returns the same JSON but in a Javascript object."
+	},
+	"Sorts an array from lowest value to highest. Numbers Only.":{
+		"prefix": "ejs.sortNumArray",
+		"body": [
+			"ejs.sortNumArray(array);"
+		],
+		"description": "Sorts an array from lowest value to highest. Numbers Only."
+	},
+	"Sorts an array from lowest value to highest. Text Only.":{
+		"prefix": "ejs.sortTextArray",
+		"body": [
+			"ejs.sortTextArray(array);"
+		],
+		"description": "Sorts an array from lowest value to highest. Text Only."
+	},
+	"Checks if is a number":{
+		"prefix": "ejs.isNumber",
+		"body": [
+			"ejs.isNumber(number);"
+		],
+		"description": "Pass in a parameter. Checks to see if it is a number. Returns true or false."
+	},
+	"Filter a numaric Array to remove a value":{
+		"prefix": "ejs.filerNumArray",
+		"body": [
+			"ejs.filerNumArray(array, value);"
+		],
+		"description": "Pass in the array and value you wish removed. Returns the new array."
+	},
+	"Convert string to Int":{
+		"prefix": "ejs.toInt",
+		"body": [
+			"ejs.toInt(string);"
+		],
+		"description": "Pass in a string number ('32') and the function will convert it to an Int. Returns the new Int or NaN if the given string can't convert."
+	},
+	"Convert to a string":{
+		"prefix": "ejs.toString",
+		"body": [
+			"ejs.toString(x);"
+		],
+		"description": "Converts and returns the passed value to a string."
+	},
+	"Capitalize a character":{
+		"prefix": "ejs.capitalize",
+		"body": [
+			"ejs.capitalize(string);"
+		],
+		"description": "Converts the first character in a string to a capital letter. Returns the new string. Great for forms!"
+	},
+	"Trim whitspace":{
+		"prefix": "ejs.trim",
+		"body": [
+			"ejs.trim(string);"
+		],
+		"description": "Gets rid of any whitespace before or after a string. Great for forms!"
+	},
+	"Split an email":{
+		"prefix": "ejs.splitEmail",
+		"body": [
+			"ejs.splitEmail(email);"
+		],
+		"description": "Split the given email into an array with two elements. Returns the new array split at the @ symbol."
+	},
+	"Convert to whole number":{
+		"prefix": "ejs.wholeNum",
+		"body": [
+			"ejs.wholeNum(number);"
+		],
+		"description": "Converts and returns a number rounded to the nearest whole number."
+	},
+	"Convert to decimal":{
+		"prefix": "ejs.toDec",
+		"body": [
+			"ejs.toDec(number);"
+		],
+		"description": "Converts and returns a number rounded to two decimal points."
+	},
+	"Get current local time":{
+		"prefix": "ejs.currentTime",
+		"body": [
+			"ejs.currentTime();"
+		],
+		"description": "Returns a formatted string of the user's current local time."
+	},
+	"Get current local date":{
+		"prefix": "ejs.currentDate",
+		"body": [
+			"ejs.currentDate();"
+		],
+		"description": "Returns a formatted string of the user's current local date."
+	},
+	"Save info to storage":{
+		"prefix": "ejs.saveInfo",
+		"body": [
+			"ejs.saveInfo(key, value);"
+		],
+		"description": "Save a key value pair into session storage. Use the 'getInfo()' function to get the info back. Great for forms with AJAX! Deletes once the browser closes or the web page changes.."
+	},
+	"Get session data":{
+		"prefix": "ejs.getInfo",
+		"body": [
+			"ejs.getInfo(key);"
+		],
+		"description": "Get's the value for a key that is stored in session storage. Great for forms with AJAX!."
 	}
 }

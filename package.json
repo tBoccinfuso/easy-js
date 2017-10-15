@@ -1,6 +1,6 @@
 {
   "name": "easy-js",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Javascript made easy!",
   "main": "Easy.js",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "keywords": ["easyjs","javascript","ejs","easy-js"],
   "author": "Thomas Boccinfuso",
+  "homepage" : "www.easyjs.org",
   "license": "MIT"
 }

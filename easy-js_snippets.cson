@@ -191,4 +191,84 @@
 'source.js'
     'Finds all by ID. replace the ID but be sure to leave the #.'
         'prefix': 'query'
-        'body': 'ejs.query("#ID");
+        'body': 'ejs.query("#ID")';
+
+'source.js'
+    'Pass in JSON string, returns the same JSON but as a Javascript Object'
+        'prefix': 'json'
+        'body': 'ejs.JSONToString(json);'
+
+'source.js'
+    'sorts an array that includes only numbers'
+        'prefix': 'sort'
+        'body': 'ejs.sortNumArray(array);'
+
+'source.js'
+    'sorts an array that includes only text'
+        'prefix': 'sort'
+        'body': 'ejs.sortTextArray(array);'
+
+'source.js'
+    'checks to see if parameter is a number, returns true or false.'
+        'prefix': 'sort'
+        'body': 'ejs.isNumber(number);'
+
+'source.js'
+    'Filter an Array composed of numbers.Pass a value and the array to exlude the value.'
+        'prefix': 'filter'
+        'body': 'ejs.filterNumArray(array, value);'
+
+'source.js'
+    'Tries to convert the given value to an integer.'
+        'prefix': 'to'
+        'body': 'ejs.toInt(string);'
+
+'source.js'
+    'converts to a string.'
+        'prefix': 'sort'
+        'body': 'ejs.toString(x);'
+
+'source.js'
+    'Finds the first character in a string and makes it a capital.'
+        'prefix': 'sort'
+        'body': 'ejs.capitalize(string);'
+
+'source.js'
+    'Get rid of any leading or trailing whitespace.'
+        'prefix': 'sort'
+        'body': 'ejs.trim(string);'
+
+'source.js'
+    'Splits an email at the "@" symbol. Returns an array of two elements.'
+        'prefix': 'split'
+        'body': 'ejs.splitEmail(email);'
+
+'source.js'
+    'Convert decimal to a whole number. Rounds.'
+        'prefix': 'number'
+        'body': 'ejs.wholeNum(number);'
+
+'source.js'
+    'Converts to a decimal number.'
+        'prefix': 'to'
+        'body': 'ejs.toDec(number);'
+
+'source.js'
+    'Get the current local time.'
+        'prefix': 'current'
+        'body': 'ejs.currentTime();'
+
+'source.js'
+    'Get the current local date.'
+        'prefix': 'current'
+        'body': 'ejs.currentDate();'
+
+'source.js'
+    'Save a key/value pair in storage. Only lasts till the browser closes.'
+        'prefix': 'save'
+        'body': 'ejs.saveInfo(key, value);'
+
+'source.js'
+    'Get a key/value pair from storage. Only lasts till the browser closes.'
+        'prefix': 'get'
+        'body': 'ejs.getInfo(key);'

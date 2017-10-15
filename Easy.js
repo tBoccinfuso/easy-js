@@ -189,7 +189,7 @@ const EasyJs = {
         var ctx=c.getContext("2d");
     
         ctx.beginPath();
-        ctx.strokeStyle="black"; // Purple path
+        ctx.strokeStyle="black"; // black path
         ctx.moveTo(x1,y1);
         ctx.lineTo(x2,y2); 
         ctx.stroke(); // Draw it
@@ -202,6 +202,62 @@ const EasyJs = {
             selector = selector.substr(1, selector.length);
         }
         return document[selectorType](selector);
+    },
+    JSONToString: function(json){
+        return JSON.parse(json);
+    },
+    sortNumArray: function(...array){
+        return array.sort(function(x,y){return x-y});
+    },
+    sortTextArray: function(...array){
+        return array.sort();
+    },
+    isNumber: (x) =>{
+        return Number.isNaN(x);
+    },
+    filterNumArray: function(array, value){
+        function checkIfHigher(arry){
+            let x = arry <value;
+            let y = arry > value;
+            return x +y;
+        }
+        if (Array.isArray(array))    
+            return array.filter(checkIfHigher);
+    },
+    toInt : function(string){
+        return parseInt(string);
+    },
+    toString : function(string){
+        return String(string);
+    },
+    capitalize : function(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    },
+    trim : function(string){
+        return str.trim();
+    },
+    splitEmail : function(email){
+        return email.replace('@', " ").split(" ");
+    },
+    wholeNum : function(value){
+        return value.toFixed(0);
+    },
+    toDec : function(value){
+        return value.toFixed(2);
+    },
+    currentTime : function(){
+        let v = new Date();
+        return v.toLocaleTimeString();
+    },
+    currentDate : function(){
+        let v = new Date();
+        return v.toLocaleDateString();
+    },
+    saveInfo : function(key, value){
+        sessionStorage.setItem(key, value);
+    },
+    getInfo : function(key){
+        return sessionStorage.getItem(key);
     }
 }
 

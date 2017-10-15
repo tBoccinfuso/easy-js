@@ -1,4 +1,4 @@
-## What is Easy-js?
+# What is Easy-js?
 
 Easy-js is a library that I built to help out new programmers and web developers who don't use Javascript that often. During my time
 in school I found the Web Design program didn't put much focus on Javascript, and that is how I came up with the idea for Easy-js. With the help of 
@@ -9,19 +9,18 @@ code snippets and easy to use functions, Easy-js makes Javascript even easier to
 `npm install easy-js`
 
 ## What's new in this version?
-`Added 4 new functions with matching code snippets!`
+`v 0.1.5 brings 12 new functions with matching VSCode, Sublime and Atom code snippets!`
 
 
-## What's next?
-I am currently working on a stand-alone version of the library that does not depend on installing through Node. <br/>
-I will also be continuing to add new useful functions that continue making life even easier!
+## Documentation
+The documentation for `Easy-JS` can be found at: [Easyjs.org](http://www.easyjs.org).
 
 ## Included:
 
 Easy.js - The main file that makes Javascript easy for new programmers and experts! <br/><br/>
 javascript.json - This is a language.json file for VSCode, you will have to run this file manually to add in the code snippets that work with easy-js.<br/><br/>
 EasyJS.sublime-snippet - This is the snippet file for Sublime Text users<br/><br/>
-easy-js_snippets.cson - This is the code snippet file for Atom users. - This is the snippet file for Sublime Text users.<br/><br/>
+easy-js_snippets.cson - This is the code snippet file for Atom users.
 
 ## Usage:
 
