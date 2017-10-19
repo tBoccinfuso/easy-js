@@ -402,5 +402,82 @@
 			"ejs.getInfo(key);"
 		],
 		"description": "Get's the value for a key that is stored in session storage. Great for forms with AJAX!."
-	}
+	},
+	"Get user's screen size":{
+		"prefix": "ejs.screenSize",
+		"body": [
+			"ejs.screenSize();"
+		],
+		"description": "Returns an array with two elements. The user's screen width and height."
+	},
+	"Get browsers OS version":{
+		"prefix": "ejs.browserOS",
+		"body": [
+			"ejs.browserOS();"
+		],
+		"description": "Returns the Operating System version of the browser."
+	},
+	"Get browsers language":{
+		"prefix": "ejs.browserLang",
+		"body": [
+			"ejs.browserLang();"
+		],
+		"description": "Returns the language being used by the browser."
+	},
+	"Convert pounds to kilograms.":{
+		"prefix": "ejs.lbKG",
+		"body": [
+			"ejs.lbKG(pounds);"
+		],
+		"description": "Convert pounds to kilograms."
+	},
+	"Convert kilograms to pounds.":{
+		"prefix": "ejs.kgLB",
+		"body": [
+			"ejs.kgLB(kg);"
+		],
+		"description": "Convert kilograms to pounds."
+	},
+	"Convert ounces to grams.":{
+		"prefix": "ejs.ozG",
+		"body": [
+			"ejs.ozG(ounces);"
+		],
+		"description": "Convert ounces to grams."
+	},
+	"Convert grams to ounces.":{
+		"prefix": "ejs.gOZ",
+		"body": [
+			"ejs.gOZ(grams);"
+		],
+		"description": "Convert grams to ounces."
+	},
+	"Convert Fahrenheit to Celsius.":{
+		"prefix": "ejs.farToCel",
+		"body": [
+			"ejs.farToCel(number);"
+		],
+		"description": "Convert Fahrenheit to Celsius."
+	},
+	"Convert Celsius to Fahrenheit.":{
+		"prefix": "ejs.celToFar",
+		"body": [
+			"ejs.celToFar(number);"
+		],
+		"description": "Convert Celsius to Fahrenheit."
+	},
+	"Convert Miles Per Hour to Kilometers Per Hour.":{
+		"prefix": "ejs.MPHtoKPH",
+		"body": [
+			"ejs.MPHtoKPH(mph);"
+		],
+		"description": "Convert Miles Per Hour to Kilometers Per Hour."
+	},
+	"Convert Kilometers Per Hour to Miles Per Hour.":{
+		"prefix": "ejs.KPHtoMPH",
+		"body": [
+			"ejs.KPHtoMPH(kph);"
+		],
+		"description": "Convert Kilometers Per Hour to Miles Per Hour."
+	},
 }

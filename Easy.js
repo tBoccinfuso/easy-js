@@ -258,6 +258,39 @@ const EasyJs = {
     },
     getInfo : function(key){
         return sessionStorage.getItem(key);
+    },
+    screenSize: function(){
+        return [screen.width, screen.height];
+    },
+    browserOS: function(){
+        return navigator.platform;
+    },
+    browserLang: function(){
+        return navigator.language;
+    },
+    lbKG: function(pounds){
+        return pounds/2.2046;
+    },
+    kgLB: function(kilo){
+        return kilo*2.2046;
+    },
+    ozG: function(ounce){
+        return ounce/0.035274;
+    },
+    gOZ: function(grams){
+        return grams*0.035274;
+    },
+    farToCel: function(fahrenheit){
+        return (fahrenheit-32) / 1.8;
+    },
+    celToFar: function(celsius){
+        return (celsius*1.8) + 32;
+    },
+    MPHtoKPH: function(mph){
+        return mph*1.609344;
+    },
+    KPHtoMPH: function(kph){
+        return kph/1.609344
     }
 }
 

@@ -272,3 +272,58 @@
     'Get a key/value pair from storage. Only lasts till the browser closes.'
         'prefix': 'get'
         'body': 'ejs.getInfo(key);'
+
+'source.js'
+    'Returns an array with two elements. The users screen width and height.'
+        'prefix': 'screen'
+        'body': 'ejs.screenSize();'
+
+'source.js'
+    'Returns the Operating System version of the browser.'
+        'prefix': 'browserOS'
+        'body': 'ejs.browserOS();'
+
+'source.js'
+    'Returns the language being used by the browser.'
+        'prefix': 'browserLang'
+        'body': 'ejs.browserLang();'
+
+'source.js'
+    'Convert pounds to kilograms.'
+        'prefix': 'lb'
+        'body': 'ejs.lbKG(pounds);'
+
+'source.js'
+    'Convert kilograms to pounds.'
+        'prefix': 'kg'
+        'body': 'ejs.kgLB(kilograms);'
+
+'source.js'
+    'Convert ounces to grams.'
+        'prefix': 'oz'
+        'body': 'ejs.ozG(ounces);'
+
+'source.js'
+    'Convert grams to ounces.'
+        'prefix': 'grams'
+        'body': 'ejs.gOZ(grams);'
+
+'source.js'
+    'Convert Fahrenheit to Celsius.'
+        'prefix': 'fahrenheit'
+        'body': 'ejs.farToCel(F);'
+
+'source.js'
+    'Convert Celsius to Fahrenheit.'
+        'prefix': 'cel'
+        'body': 'ejs.celToFar(C);'
+
+'source.js'
+    'Convert Miles Per Hour to Kilometers Per Hour.'
+        'prefix': 'mph'
+        'body': 'ejs.MPHtoKPH(mph);'
+
+'source.js'
+    'Convert Kilometers Per Hour to Miles Per Hour.'
+        'prefix': 'kph'
+        'body': 'ejs.KPHtoMPH(kph);'
