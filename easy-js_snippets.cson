@@ -327,3 +327,28 @@
     'Convert Kilometers Per Hour to Miles Per Hour.'
         'prefix': 'kph'
         'body': 'ejs.KPHtoMPH(kph);'
+
+'source.js'
+    'convert Boolean to number.'
+        'prefix': 'bool'
+        'body': 'ejs.boolToNum(bool);'
+
+'source.js'
+    'Convert Number to Boolean.'
+        'prefix': 'num'
+        'body': 'ejs.numToBool(num);'
+
+'source.js'
+    'Check if null.'
+        'prefix': 'nul'
+        'body': 'ejs.isNull(x);'
+
+'source.js'
+    'Check if a number is divisable by 2.'
+        'prefix': 'is'
+        'body': 'ejs.isEven(number);'
+
+'source.js'
+    'Get an element by Id. Allows you to chain methods from it.'
+        'prefix': 'Control'
+        'body': 'ejs.Control(id);'

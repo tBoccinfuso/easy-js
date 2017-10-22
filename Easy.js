@@ -291,9 +291,81 @@ const EasyJs = {
     },
     KPHtoMPH: function(kph){
         return kph/1.609344
+    },
+    boolToNum: function(bool){
+        return Number(bool);
+    },
+    numToBool: function(number){
+        return Boolean(number);
+    },
+    isNull: function(x){
+        if (x === null)
+            return true;
+        else
+            return false;
+    },
+    isEven: function(number){
+        if (number % 2 === 0 )
+            return true;
+        else
+            return false;
+    },
+    Control: function(id){
+        this.y = document.getElementById(id);
+
+        this.FontSize = function(number){
+            return this.y.fontSize = number;
+        }
+        this.color = function(color){
+            return this.y.style.color = color;
+        }
+        this.bgColor = function(bg){
+            return this.y.style.backgroundColor = bg;
+        }
+        this.textAlign = function(pos){
+            return this.y.style.textAlign = pos;
+        }
+        this.textDecoration = function(value){
+            return this.y.style.textDecoration = value;
+        }
+        this.FontStyle = function(style){
+            return this.y.style.fontStyle = style;
+        }
+        this.FontWeight = function(w){
+            return this.y.style.fontWeight = w;
+        }
+        this.bgIMG = function(src){
+            return this.y.style.backgroundImage = "url(" + src +")";
+        }
+        this.addClass = function(className){
+            return this.y.style.classList.add(className);
+        }
+        this.removeClass = function(className){
+            return this.y.style.classList.remove(className);
+        }
+        this.hide = function(){
+            return this.y.style.display = 'none';
+        }
+        this.show = function(){
+            return this.y.style.display = 'block';
+        }
+        this.Opacity = function(value){
+            return this.y.style.opacity = value;
+        }
+        this.Cursor = function(cursor){
+            return this.y.style.cursor = cursor;
+        }
+        this.floatLeft = function(){
+            return this.y.style.cssFloat = 'left';
+        }
+        this.floatRight = function(){
+            return this.y.style.cssFloat = 'right';
+        }
+        this.Text = function(text){
+            return this.y.innerHTML = text;
+        }        
     }
 }
 
 
 export default EasyJs;
-

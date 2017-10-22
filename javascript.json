@@ -480,4 +480,39 @@
 		],
 		"description": "Convert Kilometers Per Hour to Miles Per Hour."
 	},
+	"Convert Boolean to Number.":{
+		"prefix": "ejs.boolToNum",
+		"body": [
+			"ejs.boolToNum(bool);"
+		],
+		"description": "Convert a Boolean value to Number (0 or 1)."
+	},
+	"Convert Number to Boolean.":{
+		"prefix": "ejs.numToBool",
+		"body": [
+			"ejs.numToBool(num);"
+		],
+		"description": "Convert Number to matching Boolean value."
+	},
+	"Check if Null.":{
+		"prefix": "ejs.isNull",
+		"body": [
+			"ejs.isNull(x);"
+		],
+		"description": "Check to see if Null."
+	},
+	"Check if a number is divisable by 2.":{
+		"prefix": "ejs.isEven",
+		"body": [
+			"ejs.isEven(number);"
+		],
+		"description": "Check if a number is divisable by 2."
+	},
+	"Get an element by Id. Allows you to chain methods from it.":{
+		"prefix": "ejs.Control",
+		"body": [
+			"ejs.Control(id);"
+		],
+		"description": "Get an element by Id. Allows you to chain methods from it."
+	}
 }
