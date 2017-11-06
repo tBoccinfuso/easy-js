@@ -9,7 +9,7 @@ code snippets and easy to use functions, Easy-js makes Javascript even easier to
 `npm install easy-js`
 
 ## What's new in this version?
-`v 0.1.9 brings 4* new chain methods for the  `Control`  function with matching VSCode, Sublime and Atom code snippets!`<br/>
+`v 0.1.9 brings 4* new chain methods for the  Control  function with matching VSCode, Sublime and Atom code snippets!`<br/>
 <br/>
 
 
