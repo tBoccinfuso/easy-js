@@ -363,8 +363,21 @@ const EasyJs = {
         }
         this.Text = function(text){
             return this.y.innerHTML = text;
-        }        
+        }
+        this.DecorationOff = function(){
+            this.y.style.textDecoration = 'none';
+        }
+        this.Val = function(){
+            return this.y.value;
+        }
+        this.Width = function(){
+            return this.y.width;
+        }
+        this.Height = function(){
+            return this.y.height;
+        }    
     }
+
 }
 
 
